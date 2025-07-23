@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lenguaje CSS - Lenguajes Populares</title>
+  <link rel="stylesheet" href="estilos/estilos.css" />
+</head>
+<body id="css-page">
+  <div class="sidebar">
+    <h2>Lenguajes</h2>
+    <ul>
+      <li><a href="index.html">Portada</a></li>
+      <li><a href="html.html">HTML</a></li>
+      <li><a href="css.html" class="active">CSS</a></li>
+      <li><a href="javascript.html">JavaScript</a></li>
+      <li><a href="python.html">Python</a></li>
+      <li><a href="java.html">Java</a></li>
+    </ul>
+  </div>
+
+  <div class="main-content">
+    <header>
+      <h1 class="animated-title">CSS</h1>
+      <p class="intro">CSS (Cascading Style Sheets) es el lenguaje que controla la presentación visual y el diseño de las páginas web.</p>
+    </header>
+
+    <div class="imagen-container">
+      <img src="imagenes/css.png" alt="Logo CSS" title="Logo CSS" class="css-logo" />
+    </div>
+
+    <section class="card" onclick="mostrarMensaje('¿Qué es CSS?', 'CSS define el estilo visual para páginas web, desde colores hasta animaciones.')">
+      <h2>¿Qué es CSS?</h2>
+      <p>CSS es un lenguaje de estilos que se usa para definir colores, fuentes, diseño, animaciones y la disposición de los elementos en una página web.</p>
+    </section>
+
+    <section class="card" onclick="mostrarMensaje('Funciones principales', 'CSS controla diseño, colores, animaciones y adaptación a dispositivos.')">
+      <h2>Funciones principales</h2>
+      <ul>
+        <li>🎨 Definir colores, tipografías y fondos.</li>
+        <li>📐 Controlar la disposición y tamaño de los elementos.</li>
+        <li>⚙️ Crear animaciones y transiciones suaves.</li>
+        <li>📱 Adaptar el diseño para diferentes dispositivos (responsive design).</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Ejemplo básico de CSS</h2>
+      <pre><code>body {
+  background-color: #f0f4f8;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+h1 {
+  color: #2980b9;
+  text-align: center;
+}
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+</code></pre>
+    </section>
+
+    <section class="card" onclick="mostrarMensaje('Importancia de CSS', 'Separar estructura y diseño mejora el mantenimiento y experiencia.')">
+      <h2>Importancia de CSS en el desarrollo web</h2>
+      <p>CSS permite separar la estructura HTML del diseño visual, haciendo que los sitios sean más fáciles de mantener y mejoren la experiencia del usuario.</p>
+    </section>
+
+    <section class="card">
+      <h2>Recursos para aprender CSS</h2>
+      <ul>
+        <li><a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank" rel="noopener">MDN Web Docs - CSS</a></li>
+        <li><a href="https://www.w3schools.com/css/" target="_blank" rel="noopener">W3Schools - CSS Tutorial</a></li>
+        <li><a href="https://css-tricks.com/" target="_blank" rel="noopener">CSS-Tricks</a></li>
+      </ul>
+    </section>
+  </div>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>

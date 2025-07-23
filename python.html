@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Python</title>
+  <link rel="stylesheet" href="estilos/estilos.css" />
+</head>
+<body id="python-page">
+  <div class="sidebar">
+    <h2>Lenguajes</h2>
+    <ul>
+      <li><a href="index.html">Portada</a></li>
+      <li><a href="html.html">HTML</a></li>
+      <li><a href="css.html">CSS</a></li>
+      <li><a href="javascript.html">JavaScript</a></li>
+      <li><a href="python.html" class="active">Python</a></li>
+      <li><a href="java.html">Java</a></li>
+    </ul>
+  </div>
+
+  <div class="main-content">
+    <header>
+      <h1 class="animated-title">🐍 Lenguaje Python</h1>
+      <img src="imagenes/python.png" alt="Logo JavaScript" class="logo-js">
+      <p class="intro">Python es un lenguaje de programación poderoso y versátil, ideal para principiantes y expertos.</p>
+    </header>
+
+    <section class="info-box" onclick="mostrarMas()">
+      <h2>¿Por qué aprender Python?</h2>
+      <ul>
+        <li>📌 Fácil de leer y escribir.</li>
+        <li>📌 Aplicaciones en inteligencia artificial, ciencia de datos, desarrollo web y más.</li>
+        <li>📌 Soporte y comunidad masiva.</li>
+      </ul>
+      <div class="extra-info hidden">
+        <p>Python ha sido votado como uno de los lenguajes más populares durante años consecutivos debido a su sencillez y utilidad en múltiples campos tecnológicos.</p>
+      </div>
+    </section>
+
+    <section class="usos">
+      <h2>Aplicaciones destacadas de Python</h2>
+      <div class="usos-grid">
+        <div class="uso-card">🌐 Desarrollo Web<br><small>Flask, Django</small></div>
+        <div class="uso-card">📊 Ciencia de Datos<br><small>Pandas, NumPy, Matplotlib</small></div>
+        <div class="uso-card">🤖 Inteligencia Artificial<br><small>TensorFlow, Scikit-Learn</small></div>
+        <div class="uso-card">🎮 Videojuegos<br><small>Pygame</small></div>
+      </div>
+    </section>
+
+    <section class="code-example">
+      <h2>Ejemplo de código Python</h2>
+      <pre><code class="codigo">
+# Saludo personalizado
+def saludar(nombre):
+    print(f"¡Hola, {nombre}! Bienvenido a Python")
+
+saludar("Estudiante")
+      </code></pre>
+      <button onclick="alert('Este código muestra un saludo con el nombre proporcionado.')">¿Qué hace este código?</button>
+    </section>
+
+    <section class="trivia">
+      <h2>🎲 Mini Trivia Python</h2>
+      <p>¿Sabías que el nombre “Python” no viene del animal, sino del grupo cómico británico Monty Python?</p>
+    </section>
+
+    <section class="curiosidades">
+      <h2>🐍 Curiosidades de Python</h2>
+      <ul>
+        <li class="curioso">Puedes usar Python para automatizar tareas cotidianas.</li>
+        <li class="curioso">Es uno de los lenguajes más usados en universidades.</li>
+        <li class="curioso">Fue creado por Guido van Rossum en 1991.</li>
+      </ul>
+    </section>
+
+    <footer>
+      <p class="agradecimiento">Gracias por visitar la sección de Python 🐍</p>
+    </footer>
+  </div>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>

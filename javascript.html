@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>JavaScript</title>
+  <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+<body id="javascript-page">
+  <div class="sidebar">
+    <h2>Lenguajes</h2>
+    <ul>
+      <li><a href="index.html">Portada</a></li>
+      <li><a href="html.html">HTML</a></li>
+      <li><a href="css.html">CSS</a></li>
+      <li><a href="javascript.html" class="active">JavaScript</a></li>
+      <li><a href="python.html">Python</a></li>
+      <li><a href="java.html">Java</a></li>
+    </ul>
+  </div>
+
+  <div class="main-content">
+    <header>
+      <h1>JavaScript</h1>
+      <p>JavaScript le da vida a las páginas web: añade dinamismo, interacción y potencia.</p>
+    </header>
+
+    <section class="introduccion">
+      <img src="imagenes/js.png" alt="Logo JavaScript" class="logo-js">
+      <p>
+        JavaScript es un lenguaje de programación interpretado, orientado a objetos y basado en prototipos.
+        Es uno de los pilares del desarrollo web junto a HTML y CSS, permitiendo crear páginas web dinámicas e interactivas.
+      </p>
+    </section>
+
+    <section class="historia">
+      <h2>📜 Historia de JavaScript</h2>
+      <p>
+        Fue creado en 1995 por Brendan Eich en apenas 10 días y originalmente se llamó <em>Mocha</em>, luego <em>LiveScript</em>,
+        y finalmente <strong>JavaScript</strong> para aprovechar la popularidad de Java. Desde entonces ha evolucionado con nuevas versiones como ES6 (ECMAScript 2015).
+      </p>
+    </section>
+
+    <section class="usos">
+      <h2>🛠️ Usos comunes de JavaScript</h2>
+      <ul>
+        <li>Validación de formularios.</li>
+        <li>Animaciones y transiciones.</li>
+        <li>Juegos en línea.</li>
+        <li>Aplicaciones móviles y de escritorio (con React Native o Electron).</li>
+        <li>Back-end con Node.js.</li>
+      </ul>
+    </section>
+
+    <section class="ventajas">
+      <h2>✅ Ventajas de JavaScript</h2>
+      <p>
+        JavaScript es rápido, versátil, soportado por todos los navegadores y permite desarrollo full-stack. Además, tiene una gran comunidad y miles de librerías disponibles.
+      </p>
+    </section>
+
+    <section class="codigo-ejemplo">
+      <h2>📌 Ejemplo de código</h2>
+      <pre><code>
+// Mensaje en consola
+console.log(&quot;¡Hola desde JavaScript!&quot;);
+
+// Función que saluda
+function saludar(nombre) {
+  alert(&quot;Hola &quot; + nombre);
+}
+      </code></pre>
+    </section>
+
+    <section class="interaccion">
+      <h2>🎯 Interactividad</h2>
+      <button id="btnMostrarMensaje">Haz clic para mostrar un secreto</button>
+      <div id="mensaje" class="mensaje-oculto">
+        ¡JavaScript puede cambiar el contenido de la página sin recargarla!
+      </div>
+    </section>
+
+    <section class="recursos">
+      <h2>📚 Recursos recomendados</h2>
+      <ul>
+        <li><a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank">MDN Web Docs - JavaScript</a></li>
+        <li><a href="https://www.javascript.info/" target="_blank">The Modern JavaScript Tutorial</a></li>
+        <li><a href="https://es.react.dev/" target="_blank">React - Biblioteca de JavaScript</a></li>
+      </ul>
+    </section>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
